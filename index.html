@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="logo">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <h1>Hi ,welcome back!</h1>
+      <p class="p-logo">First time here? <a href="#">Sign up for free</a></p>
+      <form action="#">
+        <div class="email">
+          <input type="email" placeholder="Your email" required />
+          <div class="i-email">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+        </div>
+        <div class="mdp">
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            minlength="6"
+            pattern="(?=.*[A-Z])(?=.*[0-9]).{8,}"
+          />
+          <div class="i-mdp">
+            <i class="fa-regular fa-circle-check"></i>
+            <i class="fa-regular fa-circle-xmark"></i>
+            
+            <p>Password must be at leat 6 characters.</p>
+          </div>
+        </div>
+        <div class="btn">
+          <button type="submit">Sign in</button>
+        </div>
+        <h2>Sign in using magic link</h2>
+        <div class="or-hr">or</div>
+      </form>
+      <footer>
+        <button type="button">Login with phone number</button>
+        <p>
+          You acknowledge that you read, and agree, to our
+          <a href="#">Terms of service </a> and our
+          <a href="#">Privacy Policy</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
