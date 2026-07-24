@@ -253,10 +253,14 @@ footer a {
     max-width: 90%;
     padding-inline: 1rem;
   }
+
+  }
   body {
     padding-inline: 10px;
-    height: auto;
-  }
+    height: 100%;
+    display:grid;
+    place-items:center;
+    height:100vh;
   form {
     width: 90%;
   }
@@ -265,7 +269,7 @@ footer a {
 @media screen and (max-width: 480px) {
   body {
     padding-inline: 1rem;
-    height: auto;
+    height: 100%;
   }
 
   h1:first-of-type {
