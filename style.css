@@ -254,7 +254,7 @@ footer a {
     padding-inline: 1rem;
   }
   body {
-    padding-inline: 2rem;
+    padding-inline: 10px;
     height: auto;
   }
   form {
@@ -264,7 +264,7 @@ footer a {
 
 @media screen and (max-width: 480px) {
   body {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
     height: auto;
   }
 
